@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div class="gallery">
+        <img src="images/image.1.jpg" alt="Image 1" onclick="openPopup('images/image.1.jpg','Image 1')">
+        <img src="images/image.2.jpg" alt="Image 2" onclick="openPopup('images/image.2.jpg','Image 2')">
+        <img src="images/image.3.jpg" alt="Image 3" onclick="openPopup('images/image.3.jpg','Image 3')">
+        <img src="images/image.4.jpg" alt="Image 4" onclick="openPopup('images/image.4.jpg','Image 4')">
+        <img src="images/image.5.jpg" alt="Image 5" onclick="openPopup('images/image.5.jpg','Image 5')">
+        <img src="images/image.6.jpg" alt="Image 6" onclick="openPopup('images/image.6.jpg','Image 6')">
+        <img src="images/image.7.jpg" alt="Image 7" onclick="openPopup('images/image.7.jpg','Image 7')">
+        <img src="images/image.8.jpg" alt="Image 8" onclick="openPopup('images/image.8.jpg','Image 8')">
+        <img src="images/image.9.jpg" alt="Image 9" onclick="openPopup('images/image.9.jpg','Image 9')">
+        <img src="images/image.10.jpg" alt="Image 10" onclick="openPopup('images/image.10.jpg','Image 10')">
+        <img src="images/image.11.jpg" alt="Image 11" onclick="openPopup('images/image.11.jpg','Image 11')">
+        <img src="images/image.12.jpg" alt="Image 12" onclick="openPopup('images/image.12.jpg','Image 12')">
+        <img src="images/image.13.jpg" alt="Image 13" onclick="openPopup('images/image.13.jpg','Image 13')">
+        <img src="images/image.14.jpg" alt="Image 14" onclick="openPopup('images/image.14.jpg','Image 14')">
+        <img src="images/image.15.jpg" alt="Image 15" onclick="openPopup('images/image.15.jpg','Image 15')">
+        <img src="images/image.16.jpg" alt="Image 16" onclick="openPopup('images/image.16.jpg','Image 16')">
+        <img src="images/image.17.jpg" alt="Image 17" onclick="openPopup('images/image.17.jpg','Image 17')">
+        <img src="images/image.18.jpg" alt="Image 18" onclick="openPopup('images/image.18.jpg','Image 18')">
+        <img src="images/image.19.jpg" alt="Image 19" onclick="openPopup('images/image.19.jpg','Image 19')">
+        <img src="images/image.20.jpg" alt="Image 20" onclick="openPopup('images/image.20.jpg','Image 20')">
+        <img src="images/image.21.jpg" alt="Image 21" onclick="openPopup('images/image.21.jpg','Image 21')">
+        <img src="images/image.22.jpg" alt="Image 22" onclick="openPopup('images/image.22.jpg','Image 22')">
+        <img src="images/image.23.jpg" alt="Image 23" onclick="openPopup('images/image.23.jpg','Image 23')">
+        <img src="images/image.24.jpg" alt="Image 24" onclick="openPopup('images/image.24.jpg','Image 24')">
+    </div>
+    <div class="popup" id="popup" onclick="closePopup()">
+        <div id="mini-popup">
+            <img src="" alt="Popup Image" id="popupImage">
+            <button class="fa prev" onclick="showPreviousImage()">&#xf100; <span class="txt">prev</span></button>
+            <button class="fa next" onclick="showNextImage()"><span class="txt">next </span>&#xf101;</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
+
+
